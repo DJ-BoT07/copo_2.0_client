@@ -70,6 +70,8 @@ function Indirect({ showIndirect }) {
     }
   };
 
+  console.log("Hiii");
+  
   const poChartData = output
     ? [...Array(15).keys()].map((index) => {
         const name = index < 12 ? `PO${index + 1}` : `PSO${index - 11}`;
